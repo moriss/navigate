@@ -9,10 +9,7 @@
 
 int main (void)
 {
-   printf("hello world\n");//Check notes for void_input.c file, after each line of code.
+    char * name = get_string("What is your name?: " );
+    
+   printf("hello %s\n", name);//Check notes for void_input.c file, after each line of code.
 }
-
-
-
-
-
